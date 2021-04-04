@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Tour Bukhara</string>
+    <string name="welcome_to_bukhara">Welcome to Bukhara!</string>
+    <string name="historical_places">Historical Places</string>
+    <string name="hotels">Hotels</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="nav_support">Support</string>
+    <string name="feedback">Feedback</string>
+    <string name="about_us">About Us</string>
+    <string name="nav_open_drawer">Open navigation drawer</string>
+    <string name="nav_close_drawer">Close navigation drawer</string>
+    <string name="ark">Ark</string>
+    <string name="labi_hovuz">Labi Hauz</string>
+    <string name="minorai_kalon">Minorai Kalon</string>
+    <string name="description_ark">The spectacular-looking Ark, a royal town-within-a-town,
+        is Bukhara\'s oldest structure, occupied from the 5th century right up until 1920, when it
+        was bombed by the Red Army. For centuries it was the residence of the emirs of Bukhara. It\'s
+        about 80% ruins but there are still some remaining royal quarters, now housing several interesting
+        museums.</string>
+    <string name="time">9am - 7pm Mon-Sat</string>
+    <string name="details">Details</string>
+    <string name="find_your_way">Find Your Way</string>
+    <string name="description_labi_hauz">Labi Hauz which is translated as \'at the pond\' is one of
+        the central squares of Bukhara situated in the southeast part of the city. The architectural
+        ensemble was created in the 16th-17th centuries. The square has the form of an irregular polygon
+        with the Divan-Begi madrasah in the eastern part. In the western part, opposite the madrasah, is
+        the Divan-Begi khanqah.</string>
+    <string name="address_labi_hovuz">Samarkand str. 8,Bukhara, Uzbekistan</string>
+    <string name="_24_7">24/7</string>
+    <string name="description_minaret">This minaret has stood for over 9 centuries and is the only
+        thing spared by Gengis Khan when ransacking the city. The Kalyan (great) minaret is a example
+        of superior civil engineering and architectural creation. It has 14 different ornamental bands
+        and was the first to utilise the glazed blue times that the Timurids later saturated Central Asia
+        with. The rotunda has 16 arched fenestrations from which the call to prayer was made. It is a Djuma
+        mosque, intended for the large numbers that attend Friday services.</string>
+    <string name="address_minaret">Khodja Nurobod str. 9, Bukhara, Uzbekistan</string>
+    <string name="zargaron">Zargaron Hotel</string>
+    <string name="minorai_kalon_hotel">Minorai Kalon Hotel</string>
+    <string name="modarixon">Modarixon Hotel</string>
+    <string name="description_hotel_minorai_kalon">Minorai Kalon Hotels is located just few steps
+        from the famous architectural symbol of Bukhara, the pearl of architectural ensemble Poi-Kalyan,
+        Kalyan Minaret. Most rooms of the hotel have a great view of the minaret, in honor of which the
+        hotel was named. \n\nRooms of the hotel are equipped with everything necessary for your comfort
+        and nice pastime. On the root of the hotel there is the terrace, overlooking ancient Bukhara</string>
+    <string name="minorai_kalon_check_in">Check-in: 14:00 p.m.\nCheck-out: 12:00 a.m.</string>
+    <string name="find_us">Find Us</string>
+    <string name="description_zargaron">Zargaron Plaza Hotel was opened in 2009. The hotel is located
+        3 km from the airport and 12 km from the train station. It is 1.5 km from the old town (it is a
+        good 15-20 minutes walk to the old city) and the historical part of Bukhara. A very nice early
+        morning walk that surely is recommended-get out of bed before 6 am and have breakfast when you
+        return (or in the old town). The lobby is frequently used by photographers shooting bridal pictures.</string>
+    <string name="zargaron_check_in">Check-in: 14:00 p.m.\nCheck-out: 12:00 a.m.</string>
+    <string name="description_modarixon">Featuring Uzbek decor, Modarixon Hotel is located in Bukhara,
+        a short walk from Cherny Nor Monument. Free WiFi access and private parking are available.</string>
+    <string name="more_detail_old_bukhara">TYPE OF KITCHEN\nAsian\n\nSPECIALIZED MENU\nSuitable for
+        Vegetarians, Vegan Options\n\nMEAL TIME\nLunch, Dinner, Brunch, Open Late,Drinks</string>
+    <string name="address_old_bukhara">Samarkand str. 8,Bukhara, Uzbekistan</string>
+    <string name="address_minzifa">Hoja Rushnogi 6, Bukhara, Uzbekistan</string>
+    <string name="address_karavan">Khodja Nurobod str. 9, Bukhara, Uzbekistan</string>
+    <string name="address_ark">Afrosiab str., Bukhara, Uzbekistan</string>
+    <string name="short_description">Short Description</string>
+    <string name="historic_place">Historical Monuments</string>
+    <string name="new_place">Famous Places</string>
+    <string name="address_zargaron">Khuja Ismat str., Bukhara, Uzbekistan</string>
+    <string name="address_modarixon">Abdulla Qodiriy str., Bukhara, Uzbekistan</string>
+    <string name="address_minorai_kalon_hotel">Alisher Navoiy str., Bukhara, Uzbekistan</string>
+</resources>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/old_bukhara_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_image"
+            android:scaleType="centerCrop"
+            android:src="@drawable/old_bukhara_restorant"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin"
+            android:text="@string/details"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/colorText"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/old_bukhara_image" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/margin"
+            android:background="@color/colorText"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/details" />
+
+        <TextView
+            android:id="@+id/type_kitchen_old_bukhara"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin"
+            android:text="@string/more_detail_old_bukhara"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view" />
+
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/locate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/margin"
+            android:src="@drawable/historical_places"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/type_kitchen_old_bukhara" />
+
+        <TextView
+            android:id="@+id/find_your_way"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin"
+            android:text="@string/address_old_bukhara"
+            app:layout_constraintBottom_toTopOf="@+id/minzifa_image"
+            app:layout_constraintStart_toEndOf="@+id/locate"
+            app:layout_constraintTop_toBottomOf="@+id/type_kitchen_old_bukhara" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/minzifa_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_image"
+            android:layout_marginTop="@dimen/margin"
+            android:scaleType="centerCrop"
+            android:src="@drawable/minzifa"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/locate" />
+
+        <TextView
+            android:id="@+id/details_minzifa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin"
+            android:text="@string/details"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/colorText"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/minzifa_image" />
+
+        <View
+            android:id="@+id/view_minzifa"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/margin"
+            android:background="@color/colorText"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/details_minzifa" />
+
+        <TextView
+            android:id="@+id/type_kitchen_minzifa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin"
+            android:text="@string/more_detail_old_bukhara"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view_minzifa" />
+
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/locate_minzifa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/margin"
+            android:src="@drawable/historical_places"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/type_kitchen_minzifa" />
+
+        <TextView
+            android:id="@+id/find_your_way_minzifa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin"
+            android:text="@string/address_minzifa"
+            app:layout_constraintBottom_toTopOf="@+id/karavan_image"
+            app:layout_constraintStart_toEndOf="@+id/locate_minzifa"
+            app:layout_constraintTop_toBottomOf="@+id/type_kitchen_minzifa" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/karavan_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_image"
+            android:layout_marginTop="@dimen/margin"
+            android:scaleType="centerCrop"
+            android:src="@drawable/karava"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/locate_minzifa" />
+
+        <TextView
+            android:id="@+id/details_karavan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin"
+            android:text="@string/details"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/colorText"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/karavan_image" />
+
+        <View
+            android:id="@+id/view_karavan"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/margin"
+            android:background="@color/colorText"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/details_karavan" />
+
+        <TextView
+            android:id="@+id/type_kitchen_karavan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin"
+            android:text="@string/more_detail_old_bukhara"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view_karavan" />
+
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/locate_karavan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/margin"
+            android:src="@drawable/historical_places"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/type_kitchen_karavan" />
+
+        <TextView
+            android:id="@+id/find_your_way_karavan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin"
+            android:text="@string/address_karavan"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/locate_karavan"
+            app:layout_constraintTop_toBottomOf="@+id/type_kitchen_karavan" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

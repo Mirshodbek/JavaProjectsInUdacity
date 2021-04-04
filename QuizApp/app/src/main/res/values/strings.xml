@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="questionOne">1. What is always coming, but never arrives?</string>
+    <string name="write_answer">Write answer...</string>
+    <string name="answer1">Tomorrow</string>
+    <string name="mathQuestion">2. Calculate: 12 - 6 : 3 + 2 * 4</string>
+    <string name="a_16">A) 16</string>
+    <string name="b_10">B)10</string>
+    <string name="c_18">C)18</string>
+    <string name="d_48">D)48</string>
+    <string name="checkA">TextView text = findViewById(R.id.textView);</string>
+    <string name="logicQuestion">4. What is it that lives if it is fed, and dies if you give it a drink?</string>
+    <string name="answer2">Fire</string>
+    <string name="javaQuestion">3. Which of the following are valid in Java?</string>
+    <string name="result">Result</string>
+</resources>

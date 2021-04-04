@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Hotel Modarixon</string>
+    <string name="address">Mehtar Ambar str.,Bukhara,Uzbekistan</string>
+    <string name="services">Services</string>
+    <string name="wifi">Wifi</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="bar">Bar</string>
+    <string name="free_breakfast">Free Breakfast</string>
+    <string name="room_service">Room Service</string>
+    <string name="phone">+998 (78) 150-85-00</string>
+    <string name="hotel_description">Hotel description</string>
+    <string name="shortDescription">Featuring Uzbek decor, Modarixon Hotel is located in Bukhara, a short walk from Cherny Nor Monument. Free WiFi access and private parking are available.</string>
+</resources>
